@@ -1,0 +1,15 @@
+{
+  "states": [
+    "intent_greet",
+    "intent_goodbye",
+    "intent_inform",
+    "entity_currency",
+    "slot_currency_0",
+    "prev_action_listen",
+    "prev_action_restart",
+    "prev_utter_greet",
+    "prev_utter_goodbye",
+    "prev_utter_ask_currency",
+    "prev_action_exchange"
+  ]
+}

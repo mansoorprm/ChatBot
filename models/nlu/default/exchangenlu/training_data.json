@@ -1,0 +1,192 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "Hello"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 33,
+            "value": "INR",
+            "entity": "currency"
+          }
+        ],
+        "text": "what is the exchange rate for INR"
+      },
+      {
+        "intent": "greet",
+        "text": "hey"
+      },
+      {
+        "intent": "greet",
+        "text": "hello"
+      },
+      {
+        "intent": "greet",
+        "text": "hi"
+      },
+      {
+        "intent": "greet",
+        "text": "heya"
+      },
+      {
+        "intent": "greet",
+        "text": "howdy"
+      },
+      {
+        "intent": "greet",
+        "text": "hey there"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "goodbye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "bye bye"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see ya"
+      },
+      {
+        "intent": "goodbye",
+        "text": "see you later"
+      },
+      {
+        "intent": "inform",
+        "text": "What's the weather today?"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 33,
+            "value": "INR",
+            "entity": "currency"
+          }
+        ],
+        "text": "What is the exchange rate for INR today"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 29,
+            "end": 32,
+            "value": "GBP",
+            "entity": "currency"
+          }
+        ],
+        "text": "Tell me the exchange rate of GBP"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 38,
+            "end": 41,
+            "value": "EUR",
+            "entity": "currency"
+          }
+        ],
+        "text": "what is the current exchange rate for EUR"
+      },
+      {
+        "intent": "inform",
+        "text": "what is the exchange rate?"
+      },
+      {
+        "intent": "inform",
+        "text": "Tell me the exchange rate"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 30,
+            "end": 33,
+            "value": "INR",
+            "entity": "currency"
+          }
+        ],
+        "text": "show me the exchange rate for INR"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 9,
+            "value": "INR",
+            "entity": "currency"
+          }
+        ],
+        "text": "INR"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 0,
+            "end": 12,
+            "value": "GBP",
+            "entity": "currency"
+          }
+        ],
+        "text": "GBP"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 11,
+            "end": 14,
+            "value": "INR",
+            "entity": "currency"
+          }
+        ],
+        "text": "Oh, sorry, INR"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 29,
+            "value": "AED",
+            "entity": "currency"
+          }
+        ],
+        "text": "Tell me the conversion of AED"
+      },
+      {
+        "intent": "inform",
+        "entities": [
+          {
+            "start": 26,
+            "end": 29,
+            "value": "AED",
+            "entity": "currency"
+          }
+        ],
+        "text": "currency exchage rate for AED"
+      }
+    ],
+    "regex_features": [],
+    "entity_synonyms": []
+  }
+}

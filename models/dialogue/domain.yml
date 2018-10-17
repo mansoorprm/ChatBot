@@ -1,0 +1,32 @@
+action_factory: null
+action_names:
+- utter_greet
+- utter_goodbye
+- utter_ask_currency
+- action_exchange
+actions:
+- utter_greet
+- utter_goodbye
+- utter_ask_currency
+- actions.ActionExchange
+config:
+  store_entities_as_slots: true
+entities:
+- currency
+intents:
+- greet
+- goodbye
+- inform
+slots:
+  currency:
+    initial_value: null
+    type: rasa_core.slots.TextSlot
+templates:
+  utter_ask_currency:
+  - text: In what currency?
+  utter_goodbye:
+  - text: Talk to you later.
+  - text: Bye bye :(
+  utter_greet:
+  - text: Hello! How can I help?
+topics: []

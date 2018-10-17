@@ -1,0 +1,29 @@
+slots:
+  currency:
+    type: text
+
+
+intents:
+ - greet
+ - goodbye
+ - inform
+
+
+entities:
+ - currency
+
+templates:
+  utter_greet:
+    - 'Hello! How can I help?'
+  utter_goodbye:
+    - 'Talk to you later.'
+    - 'Bye bye :('
+  utter_ask_currency:
+    - 'In what currency?'
+
+
+actions:
+ - utter_greet
+ - utter_goodbye
+ - utter_ask_currency
+ - actions.ActionExchange
