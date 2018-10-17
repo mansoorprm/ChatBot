@@ -13,7 +13,7 @@ class ActionExchange(Action):
 	def run(self, dispatcher, tracker, domain):
 		
 		# Set the api api_key
-		api_key = 'be9099095f7619f0cdc318e7e6f38269'
+		api_key = 'use your api key'
 		
 		currency = tracker.get_slot('currency')
 
